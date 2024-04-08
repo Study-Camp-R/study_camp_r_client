@@ -1,0 +1,58 @@
+/* Header.css */
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  /* left: 50%; */
+  /* transform: translate(-50%, 0%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 400;
+}
+
+.headContainer {
+  /* background-color: rgb(223, 108, 108); */
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headLeft {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  cursor: pointer;
+  margin: 10px;
+  color: #226699;
+  font-weight: bold;
+}
+
+.headRight {
+  display: flex;
+  align-items: center;
+}
+
+.headButton {
+  /* display: none; */
+  /* border-radius: 5px; */
+  /* background-color: #edfaff; */
+  /* border: 1px solid #226699; */
+  /* color: #226699; */
+  font-weight: bold;
+  padding: 4px;
+  margin: 2px;
+  color: #ccc;
+
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.headButton:hover {
+  color: #226699;
+}
